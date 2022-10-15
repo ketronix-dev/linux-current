@@ -2,8 +2,8 @@
     <Source>
         <Name>linux-current</Name>
         <Packager>
-            <Name>Automated Package Build</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>Artem Dadashjants</Name>
+            <Email>ketronix2@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>kernel.image</PartOf>
@@ -20409,6 +20409,7 @@
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_ASM_INLINE</Path>
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_AUTO_VAR_INIT_PATTERN</Path>
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_AUTO_VAR_INIT_ZERO</Path>
+            <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_AUTO_VAR_INIT_ZERO_BARE</Path>
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_IBT</Path>
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_INT128</Path>
             <Path fileType="data">/usr/src/linux-headers-6.0.0-1.current/include/config/CC_HAS_KASAN_GENERIC</Path>
@@ -32276,11 +32277,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2022-10-09</Date>
+            <Date>2022-10-15</Date>
             <Version>6.0.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Automated Package Build</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>Artem Dadashjants</Name>
+            <Email>ketronix2@gmail.com</Email>
         </Update>
     </History>
 </PISI>
